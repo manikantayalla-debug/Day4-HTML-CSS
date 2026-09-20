@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 10e</title>
+        <style>
+        p {
+            font-family: Arial;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .profile{
+            display: inline-block;
+            width: 200px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+            margin-right: 18px;
+        }
+        .profile-picture{
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin-bottom: 12px;
+        }
+        .name{
+            padding-left: 8px;
+            display: block;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 4px;
+        }
+        .mutual-friends{
+            color:rgb(140,140,140);
+            padding-left: 8px;
+            margin-bottom: 4px;
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 8px;
+        }
+        .add-friend-button{
+            background-color: rgb(24, 119, 242);
+            color: white;
+            padding-top: 9px;
+            padding-bottom: 9px;
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-left: 8px;
+            border: none;
+            border-radius: 8px;
+            margin-bottom: 12px;
+        }
+        .mutual-friend-pic{
+            vertical-align: middle;
+            object-fit: cover;
+            width: 28px;
+            height: 28px;
+            margin-left: 8px;
+            border-radius: 15px;
+        }
+        .mutual-friend-row{
+            margin-bottom: 10px;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="profile">
+            <img class="profile-picture" src="images/cat.jpg">
+            <p class="name">Oliver</p>
+            <div class="mutual-friend-row">
+                <img class="mutual-friend-pic" src="channel-pics/dog2.jpg">
+            <p class="mutual-friends">2 mutual friends</p>
+            </div>
+            <button class="add-friend-button">Add Friend</button>
+        </div>
+        <div class="profile">
+            <img class="profile-picture" src="images/cat2.jpg">
+            <p class="name">Mimi</p>
+            <div class="mutual-friend-row">
+                <img class="mutual-friend-pic" src="channel-pics/dog2.jpg">
+            <p class="mutual-friends">3 mutual friends</p>
+            </div>
+            <button class="add-friend-button">Add Friend</button>
+        </div>
+        <div class="profile">
+            <img class="profile-picture" src="images/dog.jpg">
+            <p class="name">Rex</p>
+            <div class="mutual-friend-row">
+                <img class="mutual-friend-pic" src="channel-pics/dog2.jpg">
+            <p class="mutual-friends">4 mutual friends</p>
+        </div>
+            <button class="add-friend-button">Add Friend</button>
+        </div>
+    </body>
+</html>
